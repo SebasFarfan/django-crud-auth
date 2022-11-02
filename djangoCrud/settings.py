@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'djangoCrud.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://alumno:informatica2022@localhost:5432/db_curso',
         conn_max_age=600
     )
 }
